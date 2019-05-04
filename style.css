@@ -1,0 +1,138 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: darkslategray;
+  -webkit-font-smoothing:antialiased;
+}
+
+.avatar {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border-radius: 50px;
+  overflow: hidden;
+  background-image: url(images/avatar.png);
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar > img {
+  display: block;
+  margin:auto;
+  width:100%;
+  border-radius: 50;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Source Sans Pro',sans-serif;
+}
+
+.intro {
+  
+  font-weight: normal;
+  text-align: center;
+  font-size: 1em;
+  color: #ffffff;
+  font-family: 'Source Sans Pro',sans-serif;
+  width:300px;
+  margin: 0 auto;
+}
+
+.social-media {
+  maring-top: 30px;
+  font-size: 2em;
+  display:flex;
+  width: 100%;
+  justify-content: center;
+  list-style-type: none;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  maring-top: 0 auto;
+  text-align: center;
+  padding: 0;
+}
+
+.social-media > li {
+  float: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.github-button:hover, .twitter-button:hover, .insta-button:hover {
+  cursor: pointer;
+}
+
+.down-arrow {
+  margin-left: 0 auto;
+  maring-right: 0 auto;
+  margin-top: 30px;
+  font-size: 1em;
+  text-align: center;
+  color: #d55fde;
+}
+
+.down-arrow > a:visited {
+  color: #d55fde;
+}
+
+
+.about-title {
+  color: #ffffff;
+  font-family: 'Source Sans Pro',sans-serif;
+  text-align: center;
+  font-weight: 300;
+  font-size: 2.3em;
+  border: none;
+  border-bottom: 3px solid #7f848e;
+  width: 200px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-bottom: 10px
+}
+
+.about-content {
+  color: #ffffff;
+  font-family: 'Source Sans Pro',sans-serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1em;
+  margin: 0 auto;
+  width: 300px
+}
+
+@media only screen and (min-width:530px) {
+  .title {
+    font-size: 2.3em;
+  }
+  
+  .intro {
+    font-size: 1.3em;
+    width:100%;
+  }
+  
+  .social-media {
+    font-size: 2.3em;
+  }
+  
+  .down-arrow {
+    font-size: 1.3em;
+  }
+  
+  .about-title {
+    font-size: 2.6em;
+  }
+  
+  .about-content {
+    font-size: 1.3em;
+  }
+}
